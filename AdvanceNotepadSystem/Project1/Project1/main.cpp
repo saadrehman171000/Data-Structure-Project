@@ -14,7 +14,7 @@ string copiedText;
 
 TrieTree t;
 
-
+//insert
 void insert1()
 {
     string data = "", para;
@@ -22,7 +22,8 @@ void insert1()
     cout << "Enter X position: ";
     cin >> x;
     cout << "Enter Y position: ";
-    cin >> y;
+    cin>>y;
+    //cin >> y;
 
     ofstream file;
     y--;
